@@ -1,0 +1,7 @@
+N=2;
+time zokrates compile -i main.zok
+time zokrates setup -i out
+time zokrates compute-witness --verbose -i out -a 46464 8768768 45632544 45632574 46465687 2543879 45633144 45632744 442441 435431 6575745452 1251741108
+time zokrates generate-proof -i out
+time zokrates verify
+zokrates export-verifier
