@@ -1,1 +1,1 @@
-Pedersen承诺模块在测试前请确保提前运行npm install安装依赖环境，
+Pedersen承诺模块在测试前请确保提前运行npm install安装依赖环境，依次执行generate、prov与verify文件可以模拟身份认证流程中的Pedersen同态运算过程，为获取不同生物特征编码维度下的实验仿真数据，请修改文件中的生物特征维度n，并确保所有文件生物特征维度一致；
