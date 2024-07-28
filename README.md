@@ -1,0 +1,1 @@
+Pedersen承诺模块在测试前请确保提前运行npm install安装依赖环境，
