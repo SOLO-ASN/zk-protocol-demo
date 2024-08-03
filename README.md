@@ -1,2 +1,34 @@
-Pedersen承诺模块在测试前请确保提前运行npm install安装依赖环境，依次执行generate、prov与verify文件可以模拟身份认证流程中的Pedersen同态运算过程，为获取不同生物特征编码维度下的实验仿真数据，请修改文件中的生物特征维度n，并确保所有文件生物特征维度一致；
-ZKP模块在测试请请确保配置zokrates的运行环境，相应的配置流程请参考zokrates的官网，并熟悉remix中智能合约的部署与运行，在测试中需要用到的指令请参考ZKP文件夹中的cli.txt文件。
+
+## Pedersen Commitment Module
+
+Before testing, please ensure to perform the following actions:
+
+1. **Install Dependencies**  
+   Run the following command to install the dependency environment:
+   ```bash
+   npm install
+   ```
+
+2. **Simulate Identity Authentication Process**  
+   Execute the following files in sequence to simulate the Pedersen homomorphic operation process in the identity authentication workflow:
+   - `generate`
+   - `prov`
+   - `verify`
+
+3. **Configure Biometric Feature Dimensions**  
+   To obtain experimental simulation data with different biometric feature encoding dimensions, please modify the biometric feature dimension `n` in the files and ensure that all files are consistent with the biometric feature dimension.
+
+---
+
+## ZKP Module
+
+When testing the ZKP module, please ensure the following steps are completed:
+
+1. **Set Up ZoKrates Environment**  
+   Complete the corresponding configuration process according to the ZoKrates official website.
+
+2. **Familiarize with Remix**  
+   Get familiar with deploying and running smart contracts in Remix.
+
+3. **Refer to Command Instructions**  
+   For the commands needed during testing, please refer to the `cli.txt` file in the ZKP folder.
